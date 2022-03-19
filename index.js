@@ -8,9 +8,10 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(cors());
 
-app.get('/get',(req,res)=>{
+app.get('/index',(req,res)=>{
     res.status(200).json({
-        message:'Hello'
+        message:'Hello',
+        message:'low'
     });
 });
 
